@@ -48,7 +48,7 @@ export default function LocationSection() {
                 FAZER PEDIDO <ArrowUpRight className="h-4 w-4" />
               </a>
               <a
-                href="https://www.google.com/maps/search/?api=1&query=Jardim+Maria+Candida+Brodowski+SP"
+                href="https://www.google.com/maps/search/?api=1&query=Jardim+Maria+Imaculada+Brodowski+SP"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2.5 rounded-full border border-cream/20 px-7 py-3.5 font-display text-base tracking-wide text-cream transition-all duration-300 hover:border-ember hover:text-ember"

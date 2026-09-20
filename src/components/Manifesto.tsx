@@ -36,7 +36,7 @@ export default function Manifesto() {
             <p className="mt-6 max-w-md leading-relaxed text-smoke md:text-lg">
               Burger artesanal feito na chapa, no coração de{" "}
               <span className="text-cream">Brodowski</span>. Aqui cada pedido vira ponto, cada ponto
-              vira prêmio — e cada visita vira rolê. Jardim Maria Candida (Imaculada II) é o point.
+              vira prêmio — e cada visita vira rolê. Jardim Maria Imaculada (Imaculada II) é o point.
             </p>
           </Reveal>
           <div className="mt-10 grid grid-cols-3 gap-4 border-t border-cream/10 pt-8">

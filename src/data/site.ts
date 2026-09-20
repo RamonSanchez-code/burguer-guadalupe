@@ -3,7 +3,7 @@ export const BRAND = {
   legal: "Guadalupe Rango e Rolê",
   cnpj: "60.481.382/0001-44",
   city: "Brodowski/SP",
-  hood: "Jardim Maria Candida (Imaculada II)",
+  hood: "Jardim Maria Imaculada (Imaculada II)",
   logoSquare80:
     "https://d3u4c91adn9tbl.cloudfront.net/preset=logo_square_80/empresa_images/16150/689ba8487bf727uu5y.webp",
   logoSquare512:
