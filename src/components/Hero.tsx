@@ -1,7 +1,7 @@
 import { useRef, type ReactNode } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowDown, BadgePercent, Flame, Gift, MapPin } from "lucide-react";
-import Burger3D from "./Burger3D";
+import BurgerSequence from "./BurgerSequence";
 import { BRAND, scrollToId } from "../data/site";
 import { EASE } from "./Reveal";
 
@@ -37,9 +37,9 @@ export default function Hero() {
       </motion.div>
       <div className="pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-coal to-transparent z-[5]" />
 
-      {/* 3D burger */}
+      {/* burger build sequence */}
       <div className="absolute inset-x-0 top-16 h-[62svh] lg:inset-y-0 lg:left-auto lg:right-[-4%] lg:top-0 lg:h-auto lg:w-[58%] xl:w-[56%]">
-        <Burger3D progress={scrollYProgress} />
+        <BurgerSequence progress={scrollYProgress} />
         {/* floating chips */}
         <motion.div style={{ opacity: fade }} className="absolute left-[6%] top-[20%] hidden animate-float md:block [animation-delay:0.4s]">
           <div className="flex -rotate-6 items-center gap-2 rounded-2xl border border-cream/15 bg-cream/8 px-4 py-2.5 backdrop-blur-md">
